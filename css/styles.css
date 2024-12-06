@@ -71,7 +71,9 @@ align-items: center;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.item{display: block;}
+.item{
+  padding: 24px 0;
+  display: block;}
 
 .item-link {
   color: #2e2f42;
