@@ -22,12 +22,12 @@ h5,
 h6,
 p {
   margin: 0;
+  padding-left: 0;
 }
 
 /*common*/
 .container {
   justify-content: space-between;
-  display: flex;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -71,9 +71,7 @@ align-items: center;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.item{
-
-  display: block;}
+.item{display: block;}
 
 .item-link {padding: 24px 0;
   color: #2e2f42;
@@ -110,12 +108,17 @@ align-items: center;
 .add:focus {
   color: #404bbf;
 }
-
-.sec {
+/*section*/
+.section { padding: 120px 0;}
+.sec {padding: 188px 0;
   background-color: #2e2f42;
 }
 
 .main-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 496px;
   text-align: center;
   font-weight: 500;
   font-size: 56px;
@@ -125,6 +128,16 @@ align-items: center;
 }
 
 .btn-order-service {
+  border-radius: 4px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 169px;
+  height: 56px;
+  display:block;
+  text-align: center;
+  gap: 10px;
   line-height: 1.5;
   font-weight: 500;
   font-size: 16px;
