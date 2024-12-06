@@ -72,10 +72,10 @@ align-items: center;
   color: #4d5ae5;
 }
 .item{
-  padding: 24px 0;
+
   display: block;}
 
-.item-link {
+.item-link {padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
