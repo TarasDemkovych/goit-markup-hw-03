@@ -189,7 +189,7 @@ p {
   gap: 8px;
   width: calc((100% - 72px) / 4);
 }
-.title {
+.title {margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -201,6 +201,12 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.container-team{padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;}
 /*section 3*/
 .sec-our {
   padding: 120px 0;
@@ -236,11 +242,9 @@ p {
 
 .title-person {
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
-  margin-top: 32px;
   font-weight: 500;
   margin-bottom: 8px;
   font-size: 20px;
@@ -254,7 +258,7 @@ p {
  
  
 }
-.Portfolio-list{
+.portfolio-list{
   display: flex;
   flex-wrap: wrap;
 gap: 48px 24px;
@@ -265,7 +269,6 @@ img {
 
 .our-text {
   text-align: center;
-  margin-top: 8px;
   padding-bottom: 32px;
   letter-spacing: 0.02em;
   color: #434455;
